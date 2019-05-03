@@ -1,0 +1,297 @@
+﻿<Window x:Class="WTBot.MainWindow"
+        xmlns:p="clr-namespace:WTBot.Properties"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WTBot"
+        mc:Ignorable="d"
+        Title="WTBot-Friends&amp;Family" Height="600" Width="800" MinWidth="650" MinHeight="500"
+        Closing="Window_Closing">
+    <Grid Margin="0,0,-0.4,0.4">
+        <TabControl x:Name="tabControl" SizeChanged="onTabControlSizeChanged" Background="#FFFAFAFA">
+            <!--Tasks Tab  -->
+            <TabItem x:Name="tabItemTasks">
+                <TabItem.Header>
+                    <TextBlock x:Name="tabItemTasksHeader" Text="{x:Static p:Resources.tabTasks}"/>
+                </TabItem.Header>
+                <Grid Margin="10,10,10,10" SizeChanged="tasksGridSizeChanged" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3.75*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.25*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.25*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.25*"/>
+                        <ColumnDefinition Width="1*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1.5*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="12*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="0" x:Name="lCapchasSolved" Margin="0,0,5.2,5" HorizontalAlignment="Right" Width="50" Background="Red" Grid.RowSpan="2"
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Button Grid.Row="0" Grid.Column="3" x:Name="butAddTask" Click="butAddTask_Click" Content="{x:Static p:Resources.butTaskAdd}" Background="#FF80DC80"/>
+                    <Button Grid.Row="0" Grid.Column="5" x:Name="butEditTask" Click="butEditTask_Click" Content="{x:Static p:Resources.butTaskEdit}" Background="#FFDCDC80"/>
+                    <Button Grid.Row="0" Grid.Column="7" x:Name="butRemoveTask" Click="butRemoveTask_Click" Content="{x:Static p:Resources.butTaskRemove}" Background="#FFDC8080"/>
+                    <ListView x:Name="lvTasks" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="8" SizeChanged="lvTasks_SizeChanged" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                        <ListView.View >
+
+                            <GridView x:Name="gvTasks">
+                                <GridViewColumn Header="{x:Static p:Resources.taskName}"  x:Name="colTaskName"  Width="200"  />
+                                <GridViewColumn Header="{x:Static p:Resources.taskInfoProfile}"  x:Name="colProfile"  Width="200"  />
+                                <GridViewColumn Header="{x:Static p:Resources.taskInfoCheckoutDelay}"  x:Name="colCheckoutDelay"  Width="200"  />
+                                <GridViewColumn Header="{x:Static p:Resources.colRun}"  x:Name="colRun" Width="150"  >
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button x:Name="butStartTask" Click="butStartTask_Click" Width="{Binding Path=Width, ElementName=colRun}" Content="Start"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Border Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="8" BorderThickness="1" BorderBrush="Black">
+                        <ScrollViewer x:Name="tbLogScroll" VerticalScrollBarVisibility="Visible">
+                            <TextBlock x:Name="tbLog" TextAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Margin="1.2,1.2,8.2,0"  Width="{Binding Path=Width, ElementName=lvTasks}"  Background="White" RenderTransformOrigin="0.5,0.5"/>
+                        </ScrollViewer>
+                    </Border>
+                    <Button Grid.Row="0" Grid.Column="1" x:Name="butSolveCaptchas" Click="butSolveCaptchas_Click" Content="{x:Static p:Resources.butSolveCaptcha}" />
+                </Grid>
+            </TabItem>
+            <!--Settings Tab  -->
+            <TabItem x:Name="tabItemSettings">
+                <TabItem.Header>
+                    <TextBlock x:Name="tabItemSettingsHeader" Text="{x:Static p:Resources.tabProfiles}"/>
+                </TabItem.Header>
+                <Grid Margin="10,10,10,10" SizeChanged="settingsGridSizeChanged">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="53*"/>
+                        <RowDefinition Height="52*"/>
+                        <RowDefinition Height="53*"/>
+                        <RowDefinition Height="52"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="labelPersonalData"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="{x:Static p:Resources.dataPersonal}" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                    <Label x:Name="labelFullName" Grid.Row="1" Grid.Column="0" Content="{x:Static p:Resources.dataFullName}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelEmail" Grid.Row="2" Grid.Column="0" Content="{x:Static p:Resources.dataEmail}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelTel" Grid.Row="3" Grid.Column="0" Content="{x:Static p:Resources.dataTel}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelAddress1" Grid.Row="4" Grid.Column="0" Content="{x:Static p:Resources.dataAddress1}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelAddress2" Grid.Row="5" Grid.Column="0" Content="{x:Static p:Resources.dataAddress2}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelCity" Grid.Row="6" Grid.Column="0" Content="{x:Static p:Resources.dataCity}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelPostcode" Grid.Row="7" Grid.Column="0" Content="{x:Static p:Resources.dataPostcode}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelCountry" Grid.Row="8" Grid.Column="0" Content="{x:Static p:Resources.dataCountry}" VerticalContentAlignment="Center"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="tbFullName" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="tbEmail" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" x:Name="tbTel" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+                    <TextBox Grid.Row="4" Grid.Column="1" x:Name="tbAddress1" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+                    <TextBox Grid.Row="5" Grid.Column="1" x:Name="tbAddress2" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+                    <TextBox Grid.Row="6" Grid.Column="1" x:Name="tbCity" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+                    <TextBox Grid.Row="7" Grid.Column="1" x:Name="tbPostcode" VerticalContentAlignment="Center" Margin="0,5,0,5"/>
+
+                    <Label x:Name="labelCardDetails" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="4" Content="{x:Static p:Resources.dataCard}" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                    <Label x:Name="labelCardType" Grid.Row="1" Grid.Column="3" Content="{x:Static p:Resources.dataCardType}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelCardNumber" Grid.Row="2" Grid.Column="3" Content="{x:Static p:Resources.dataCardNumber}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelCardExpire" Grid.Row="3" Grid.Column="3" Content="{x:Static p:Resources.dataCardExpire}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelCardCvv" Grid.Row="4" Grid.Column="3" Content="{x:Static p:Resources.dataCVV}" VerticalContentAlignment="Center"/>
+                    <Label x:Name="labelCardRef" Grid.Row="5" Grid.Column="3" Content="{x:Static p:Resources.dataRef}" VerticalContentAlignment="Center" Margin="0.2,4,0.2,0"/>
+
+                    <ComboBox Grid.Row="8" Grid.Column="1" x:Name="cbCountry" VerticalContentAlignment="Center" Margin="0,5,0,5" SelectedValuePath="Content">
+                        <ComboBoxItem >-</ComboBoxItem>
+                        <ComboBoxItem >UK</ComboBoxItem>
+                        <ComboBoxItem >UK (N. IRELAND)</ComboBoxItem>
+                        <ComboBoxItem>AUSTRIA</ComboBoxItem>
+                        <ComboBoxItem >BELARUS</ComboBoxItem>
+                        <ComboBoxItem >BELGIUM</ComboBoxItem>
+                        <ComboBoxItem >BULGARIA</ComboBoxItem>
+                        <ComboBoxItem >CROATIA</ComboBoxItem>
+                        <ComboBoxItem >CZECH REPUBLIC</ComboBoxItem>
+                        <ComboBoxItem>DENMARK</ComboBoxItem>
+                        <ComboBoxItem >ESTONIA</ComboBoxItem>
+                        <ComboBoxItem >FINLAND</ComboBoxItem>
+                        <ComboBoxItem >FRANCE</ComboBoxItem>
+                        <ComboBoxItem >GERMANY</ComboBoxItem>
+                        <ComboBoxItem >GREECE</ComboBoxItem>
+                        <ComboBoxItem >HUNGARY</ComboBoxItem>
+                        <ComboBoxItem >ICELAND</ComboBoxItem>
+                        <ComboBoxItem >IRELAND</ComboBoxItem>
+                        <ComboBoxItem >ITALY</ComboBoxItem>
+                        <ComboBoxItem >LATVIA</ComboBoxItem>
+                        <ComboBoxItem >LITHUANIA</ComboBoxItem>
+                        <ComboBoxItem >LUXEMBOURG</ComboBoxItem>
+                        <ComboBoxItem >MONACO</ComboBoxItem>
+                        <ComboBoxItem >NETHERLANDS</ComboBoxItem>
+                        <ComboBoxItem >NORWAY</ComboBoxItem>
+                        <ComboBoxItem >POLAND</ComboBoxItem>
+                        <ComboBoxItem >PORTUGAL</ComboBoxItem>
+                        <ComboBoxItem >ROMANIA</ComboBoxItem>
+                        <ComboBoxItem >RUSSIA</ComboBoxItem>
+                        <ComboBoxItem >SLOVAKIA</ComboBoxItem>
+                        <ComboBoxItem >SLOVENIA</ComboBoxItem>
+                        <ComboBoxItem >SPAIN</ComboBoxItem>
+                        <ComboBoxItem >SWEDEN</ComboBoxItem>
+                        <ComboBoxItem >SWITZERLAND</ComboBoxItem>
+                        <ComboBoxItem >TURKEY</ComboBoxItem>
+                    </ComboBox>
+
+                    <ComboBox x:Name="cbCardType" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="3" VerticalContentAlignment="Center" Margin="4.8,5,0,5" SelectedValuePath="Tag">
+                        <ComboBoxItem Tag="american_express">American Express</ComboBoxItem>
+                        <ComboBoxItem Tag="visa">Visa</ComboBoxItem>
+                        <ComboBoxItem Tag="master">Mastercard</ComboBoxItem>
+                        <ComboBoxItem Tag="solo">Solo</ComboBoxItem>
+                        <ComboBoxItem Tag="paypal">PayPal</ComboBoxItem>
+                    </ComboBox>
+
+                    <TextBox x:Name="tbCardno" Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="3" VerticalContentAlignment="Center" Margin="4.8,5,0,5"/>
+                    <ComboBox x:Name="cbCardMonth" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="3" VerticalContentAlignment="Center" Margin="4.8,0,74,10" SelectedValuePath="Content">
+                        <ComboBoxItem Tag="01">01</ComboBoxItem>
+                        <ComboBoxItem Tag="02">02</ComboBoxItem>
+                        <ComboBoxItem Tag="03">03</ComboBoxItem>
+                        <ComboBoxItem Tag="04">04</ComboBoxItem>
+                        <ComboBoxItem Tag="05">05</ComboBoxItem>
+                        <ComboBoxItem Tag="06">06</ComboBoxItem>
+                        <ComboBoxItem Tag="07">07</ComboBoxItem>
+                        <ComboBoxItem Tag="08">08</ComboBoxItem>
+                        <ComboBoxItem Tag="09">09</ComboBoxItem>
+                        <ComboBoxItem Tag="10">10</ComboBoxItem>
+                        <ComboBoxItem Tag="11">11</ComboBoxItem>
+                        <ComboBoxItem Tag="12">12</ComboBoxItem>
+                    </ComboBox>
+
+
+                    <ComboBox x:Name="cbCardYear" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="1" VerticalContentAlignment="Center" Margin="5.2,0,0,10" SelectedValuePath="Content">
+                        <ComboBoxItem Tag="2018">2018</ComboBoxItem>
+                        <ComboBoxItem Tag="2019">2019</ComboBoxItem>
+                        <ComboBoxItem Tag="2020">2020</ComboBoxItem>
+                        <ComboBoxItem Tag="2021">2021</ComboBoxItem>
+                        <ComboBoxItem Tag="2022">2022</ComboBoxItem>
+                        <ComboBoxItem Tag="2023">2023</ComboBoxItem>
+                        <ComboBoxItem Tag="2024">2024</ComboBoxItem>
+                        <ComboBoxItem Tag="2025">2025</ComboBoxItem>
+                        <ComboBoxItem Tag="2026">2026</ComboBoxItem>
+                        <ComboBoxItem Tag="2027">2027</ComboBoxItem>
+                    </ComboBox>
+
+
+
+                    <TextBox x:Name="tbCVV" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" VerticalContentAlignment="Center" Margin="4.8,5,62.8,5"/>
+                    <TextBox x:Name="tbProfileName" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="3" VerticalContentAlignment="Center" Margin="4.8,4,10,5"/>
+                    <Button x:Name="butSave" Grid.Row="6" Grid.Column="3" Click="butSave_Click" Grid.ColumnSpan="2" Content="{x:Static p:Resources.dataSave}" Margin="10.2,6,20.4,4.8" Background="#FF80DC80"/>
+                    <Button x:Name="butClear" Grid.Row="6" Grid.Column="5" Click="butClear_Click" Grid.ColumnSpan="2" Content="{x:Static p:Resources.dataClear}" Margin="9.6,6,10,4.8"/>
+                    <Button x:Name="butEdit" Grid.Row="7" Grid.Column="3" Click="butEdit_Click"  Grid.ColumnSpan="2" Content="{x:Static p:Resources.butTaskEdit}" Margin="10.2,5.2,20.4,4.8" Background="#FFDCDC80"/>
+                    <Button x:Name="butRemove" Grid.Row="7" Grid.Column="5" Click="butRemove_Click" Content="{x:Static p:Resources.butTaskRemove}" Margin="9.6,5.2,10,4.8" Grid.ColumnSpan="2" Background="#FFDC8080"/>
+
+                    <ListView x:Name="lvData" Grid.Row="8" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="2" SizeChanged="lvData_SizeChanged" Margin="0.2,0.2,0,0">
+                        <ListView.View >
+                            <GridView x:Name="gvData">
+                                <GridViewColumn Header="{x:Static p:Resources.dataRef}" x:Name="dataColProfileName" Width="70"  />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                </Grid>
+            </TabItem>
+            <!-- Proxy Tab  -->
+            <TabItem x:Name="tabItemProxy">
+                <TabItem.Header>
+                    <TextBlock x:Name="tabItemProxyHeader" Text="{x:Static p:Resources.tabProxyAndSettings}"/>
+                </TabItem.Header>
+                <Grid Margin="10,10,10,10" x:Name="proxyTabGrid" SizeChanged="proxyTabGrid_SizeChanged">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                        <ColumnDefinition Width="1*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="0.25*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="lProxy" Content="Proxy" Grid.Column="0" Grid.Row="0" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"></Label>
+                    <Label x:Name="lSettings" Content="{x:Static p:Resources.labelSettings}" Grid.Column="0" Grid.Row="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"></Label>
+
+                    <Label x:Name="lProxyName" Content="{x:Static p:Resources.lProxyName}" Grid.Column="0" Grid.Row="2"/>
+                    <TextBox x:Name="tbProxyName" Grid.Column="2" Grid.Row="2" VerticalContentAlignment="Center" />
+                    <Label x:Name="lProxyAddress" Content="{x:Static p:Resources.lProxyAddress}" Grid.Column="0" Grid.Row="4" />
+                    <TextBox x:Name="tbProxyIpAddress" Grid.Column="2" Grid.Row="4" VerticalContentAlignment="Center" />
+
+                    <Label x:Name="lProxyUsername" Content="{x:Static p:Resources.lProxyUsername}" Grid.Column="0" Grid.Row="6"/>
+                    <TextBox x:Name="tbProxyUsername" Grid.Column="2" Grid.Row="6" VerticalContentAlignment="Center"/>
+                    <Label x:Name="lProxyPassword" Content="{x:Static p:Resources.lProxyPassword}" Grid.Column="0" Grid.Row="8" />
+                    <TextBox x:Name="tbProxyPassword" Grid.Column="2" Grid.Row="8" VerticalContentAlignment="Center"/>
+
+
+
+                    <Button Content="{x:Static p:Resources.butTaskAdd}" x:Name="butProxyAdd" Grid.Column="0" Grid.Row="10" Click="butProxyAdd_Click"  Background="#FF80DC80"/>
+                    <Button Content="{x:Static p:Resources.dataClear}" x:Name="butProxyClear" Grid.Column="2" Grid.Row="10" Click="butProxyClear_Click"/>
+                    <Button Content="{x:Static p:Resources.butTaskEdit}" x:Name="butProxyEdit" Grid.Column="4" Grid.Row="10" Click="butProxyEdit_Click"  Background="#FFDCDC80"/>
+                    <Button Content="{x:Static p:Resources.butTaskRemove}" x:Name="butProxyRemove" Grid.Column="6" Grid.Row="10" Click="butProxyRemove_Click" Background="#FFDC8080"/>
+
+                    <ListView Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="3" Grid.RowSpan="7" Margin="0,0,0,0.4" x:Name="lvProxy" SizeChanged="lvProxy_SizeChanged">
+                        <ListView.View >
+                            <GridView>
+                                <GridViewColumn Header="{x:Static p:Resources.lProxyName}" x:Name="colProxyName" Width="100" />
+                                <GridViewColumn Header="IP" x:Name="colIP" Width="100" />
+                                <GridViewColumn Header="{x:Static p:Resources.lProxyUsername}" x:Name="colUsername" Width="100"/>
+                            </GridView>
+                        </ListView.View>
+
+                    </ListView>
+                    <Label x:Name="lRefreshFreq" Content="{x:Static p:Resources.labelRefreshFreq}" Grid.Column="0" Grid.Row="14"></Label>
+                    <TextBox x:Name="tbRefresMS" Grid.Column="2" Grid.Row="14" VerticalContentAlignment="Center"/>
+
+
+                    <Button x:Name="butSettingsSave" Content="{x:Static p:Resources.dataSave}" Grid.Column="8" Grid.Row="18" Click="butSettingsSave_Click"/>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<Obfuscator>
+  <Var name="InPath" value=".\in" />
+  <Var name="OutPath" value=".\out" />
+  <Module file="$(InPath)\WTBot.exe" />
+  <Var name="KeepPublicApi" value="true" />
+</Obfuscator>

@@ -1,0 +1,1287 @@
+Renamed Types:
+
+[WTBot]ReVerifyNow -> [WTBot]A.A
+{
+	[WTBot]ReVerifyNow::btnReverify_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[WTBot]ReVerifyNow::btnExit_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[WTBot]ReVerifyNow::InitializeComponent[0]( ) -> A
+
+	[WTBot]ReVerifyNow::.ctor[3]( [WTBot]wyDay.TurboActivate.TurboActivate, [mscorlib]System.UInt32, [mscorlib]System.UInt32 ) skipped:  special name
+	[WTBot]ReVerifyNow::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+
+	wyDay.TurboActivate.TurboActivate [WTBot]wyDay.TurboActivate.TurboActivate ReVerifyNow::ta -> A
+	System.Boolean [WTBot]System.Boolean ReVerifyNow::inGrace -> A
+	System.UInt32 [WTBot]System.UInt32 ReVerifyNow::GenuineDaysLeft -> A
+	System.Boolean [WTBot]System.Boolean ReVerifyNow::noLongerActivated -> a
+	System.ComponentModel.IContainer [WTBot]System.ComponentModel.IContainer ReVerifyNow::components -> A
+	System.Windows.Forms.Button [WTBot]System.Windows.Forms.Button ReVerifyNow::btnExit -> A
+	System.Windows.Forms.Button [WTBot]System.Windows.Forms.Button ReVerifyNow::btnReverify -> a
+	System.Windows.Forms.Label [WTBot]System.Windows.Forms.Label ReVerifyNow::lblDescr -> A
+}
+
+[WTBot]WTBot.FileLogger -> [WTBot]A.a
+{
+	[WTBot]WTBot.FileLogger::log[1]( [mscorlib]System.String ) -> A
+
+	System.String [WTBot]System.String WTBot.FileLogger::filename -> A
+}
+
+[WTBot]WTBot.LvItemInfo -> [WTBot]A.B
+{
+	[WTBot]WTBot.LvItemInfo::get_Color[0]( ) -> A
+	[WTBot]WTBot.LvItemInfo::set_Color[1]( [mscorlib]System.String ) -> A
+	[WTBot]WTBot.LvItemInfo::get_Size[0]( ) -> a
+	[WTBot]WTBot.LvItemInfo::set_Size[1]( [mscorlib]System.String ) -> a
+	[WTBot]WTBot.LvItemInfo::get_Keywords[0]( ) -> B
+	[WTBot]WTBot.LvItemInfo::set_Keywords[1]( [mscorlib]System.String ) -> B
+	[WTBot]WTBot.LvItemInfo::get_Id[0]( ) -> b
+	[WTBot]WTBot.LvItemInfo::set_Id[1]( [mscorlib]System.String ) -> b
+	[WTBot]WTBot.LvItemInfo::get_Category[0]( ) -> C
+	[WTBot]WTBot.LvItemInfo::set_Category[1]( [mscorlib]System.String ) -> C
+
+	[WTBot]WTBot.LvItemInfo::.ctor[0]( ) skipped:  special name
+
+	System.String [WTBot]System.String WTBot.LvItemInfo::<Color>k__BackingField -> A
+	System.String [WTBot]System.String WTBot.LvItemInfo::<Size>k__BackingField -> a
+	System.String [WTBot]System.String WTBot.LvItemInfo::<Keywords>k__BackingField -> B
+	System.String [WTBot]System.String WTBot.LvItemInfo::<Id>k__BackingField -> b
+	System.String [WTBot]System.String WTBot.LvItemInfo::<Category>k__BackingField -> C
+
+	System.String [WTBot]System.String WTBot.LvItemInfo::Color -> dropped
+	System.String [WTBot]System.String WTBot.LvItemInfo::Size -> dropped
+	System.String [WTBot]System.String WTBot.LvItemInfo::Keywords -> dropped
+	System.String [WTBot]System.String WTBot.LvItemInfo::Id -> dropped
+	System.String [WTBot]System.String WTBot.LvItemInfo::Category -> dropped
+}
+
+[WTBot]WTBot.WebClientExt -> [WTBot]A.c
+{
+	[WTBot]WTBot.WebClientExt::get_Timeout[0]( ) -> A
+	[WTBot]WTBot.WebClientExt::set_Timeout[1]( [mscorlib]System.Int32 ) -> A
+
+	[WTBot]WTBot.WebClientExt::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.WebClientExt::GetWebRequest[1]( [System]System.Uri ) skipped:  external base class or interface
+
+	System.Int32 [WTBot]System.Int32 WTBot.WebClientExt::<Timeout>k__BackingField -> A
+
+	System.Int32 [WTBot]System.Int32 WTBot.WebClientExt::Timeout -> dropped
+}
+
+[WTBot]WTBot.Properties.Settings -> [WTBot]A.d
+{
+	[WTBot]WTBot.Properties.Settings::get_Default[0]( ) -> A
+
+	[WTBot]WTBot.Properties.Settings::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.Properties.Settings::.cctor[0]( ) skipped:  special name
+
+	WTBot.Properties.Settings [WTBot]WTBot.Properties.Settings WTBot.Properties.Settings::defaultInstance -> A
+
+	WTBot.Properties.Settings [WTBot]WTBot.Properties.Settings WTBot.Properties.Settings::Default -> dropped
+}
+
+[WTBot]WTBot.Bot/<>c__DisplayClass17_0 -> [WTBot]WTBot.Bot/A
+{
+	[WTBot]WTBot.Bot/<>c__DisplayClass17_0::<forwardMessageToLogMonitor>b__0[0]( ) -> A
+
+	[WTBot]WTBot.Bot/<>c__DisplayClass17_0::.ctor[0]( ) skipped:  special name
+
+	WTBot.Bot [WTBot]WTBot.Bot WTBot.Bot/<>c__DisplayClass17_0::<>4__this -> A
+	System.String [WTBot]System.String WTBot.Bot/<>c__DisplayClass17_0::message -> A
+	System.String [WTBot]System.String WTBot.Bot/<>c__DisplayClass17_0::name -> a
+}
+
+[WTBot]WTBot.Bot/<>c__DisplayClass20_0 -> [WTBot]WTBot.Bot/a
+{
+	[WTBot]WTBot.Bot/<>c__DisplayClass20_0::<startTaskWithName>b__0[0]( ) -> A
+
+	[WTBot]WTBot.Bot/<>c__DisplayClass20_0::.ctor[0]( ) skipped:  special name
+
+	WTBot.Bot [WTBot]WTBot.Bot WTBot.Bot/<>c__DisplayClass20_0::<>4__this -> A
+	WTBot.TaskInfo [WTBot]WTBot.TaskInfo WTBot.Bot/<>c__DisplayClass20_0::task -> A
+}
+
+[WTBot]WTBot.InfoManager/<>c__DisplayClass25_0 -> [WTBot]WTBot.InfoManager/A
+{
+	[WTBot]WTBot.InfoManager/<>c__DisplayClass25_0::<saveTasksList>b__0[0]( ) -> A
+
+	[WTBot]WTBot.InfoManager/<>c__DisplayClass25_0::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.List`1<WTBot.TaskInfo> [WTBot]System.Collections.Generic.List`1<WTBot.TaskInfo> WTBot.InfoManager/<>c__DisplayClass25_0::l -> A
+}
+
+[WTBot]WTBot.InfoManager/<>c__DisplayClass29_0 -> [WTBot]WTBot.InfoManager/a
+{
+	[WTBot]WTBot.InfoManager/<>c__DisplayClass29_0::<saveProxiesList>b__0[0]( ) -> A
+
+	[WTBot]WTBot.InfoManager/<>c__DisplayClass29_0::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.List`1<WTBot.ProxyInfo> [WTBot]System.Collections.Generic.List`1<WTBot.ProxyInfo> WTBot.InfoManager/<>c__DisplayClass29_0::l -> A
+}
+
+[WTBot]WTBot.LvProfileItem -> [WTBot]A.g
+{
+	[WTBot]WTBot.LvProfileItem::get_ProfileName[0]( ) -> A
+	[WTBot]WTBot.LvProfileItem::set_ProfileName[1]( [mscorlib]System.String ) -> A
+
+	[WTBot]WTBot.LvProfileItem::.ctor[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  special name
+
+	System.String [WTBot]System.String WTBot.LvProfileItem::<ProfileName>k__BackingField -> A
+
+	System.String [WTBot]System.String WTBot.LvProfileItem::ProfileName -> dropped
+}
+
+[WTBot]WTBot.LvProxyItem -> [WTBot]A.H
+{
+	[WTBot]WTBot.LvProxyItem::get_profileName[0]( ) -> A
+	[WTBot]WTBot.LvProxyItem::set_profileName[1]( [mscorlib]System.String ) -> A
+	[WTBot]WTBot.LvProxyItem::get_ip[0]( ) -> a
+	[WTBot]WTBot.LvProxyItem::set_ip[1]( [mscorlib]System.String ) -> a
+	[WTBot]WTBot.LvProxyItem::get_username[0]( ) -> B
+	[WTBot]WTBot.LvProxyItem::set_username[1]( [mscorlib]System.String ) -> B
+
+	[WTBot]WTBot.LvProxyItem::.ctor[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  special name
+
+	System.String [WTBot]System.String WTBot.LvProxyItem::<profileName>k__BackingField -> A
+	System.String [WTBot]System.String WTBot.LvProxyItem::<ip>k__BackingField -> a
+	System.String [WTBot]System.String WTBot.LvProxyItem::<username>k__BackingField -> B
+
+	System.String [WTBot]System.String WTBot.LvProxyItem::profileName -> dropped
+	System.String [WTBot]System.String WTBot.LvProxyItem::ip -> dropped
+	System.String [WTBot]System.String WTBot.LvProxyItem::username -> dropped
+}
+
+[WTBot]WTBot.ReCaptchaWindow/<>c__DisplayClass7_0 -> [WTBot]WTBot.ReCaptchaWindow/A
+{
+	[WTBot]WTBot.ReCaptchaWindow/<>c__DisplayClass7_0::<HideScriptErrors>b__0[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> A
+
+	[WTBot]WTBot.ReCaptchaWindow/<>c__DisplayClass7_0::.ctor[0]( ) skipped:  special name
+
+	WTBot.ReCaptchaWindow [WTBot]WTBot.ReCaptchaWindow WTBot.ReCaptchaWindow/<>c__DisplayClass7_0::<>4__this -> A
+	System.Windows.Controls.WebBrowser [WTBot]System.Windows.Controls.WebBrowser WTBot.ReCaptchaWindow/<>c__DisplayClass7_0::wb -> A
+	System.Boolean [WTBot]System.Boolean WTBot.ReCaptchaWindow/<>c__DisplayClass7_0::hide -> A
+}
+
+[WTBot]wyDay.TurboActivate.TurboActivate/Native/ACTIVATE_OPTIONS -> [WTBot]wyDay.TurboActivate.TurboActivate/A/A
+{
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TurboActivate/Native/ACTIVATE_OPTIONS::nLength -> A
+	System.String [WTBot]System.String wyDay.TurboActivate.TurboActivate/Native/ACTIVATE_OPTIONS::sExtraData -> A
+}
+
+[WTBot]wyDay.TurboActivate.TurboActivate/Native/GenuineFlags -> [WTBot]wyDay.TurboActivate.TurboActivate/A/a
+{
+	wyDay.TurboActivate.TurboActivate/Native/GenuineFlags [WTBot]wyDay.TurboActivate.TurboActivate/Native/GenuineFlags wyDay.TurboActivate.TurboActivate/Native/GenuineFlags::TA_SKIP_OFFLINE -> A
+	wyDay.TurboActivate.TurboActivate/Native/GenuineFlags [WTBot]wyDay.TurboActivate.TurboActivate/Native/GenuineFlags wyDay.TurboActivate.TurboActivate/Native/GenuineFlags::TA_OFFLINE_SHOW_INET_ERR -> a
+
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TurboActivate/Native/GenuineFlags::value__ skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.TurboActivate/Native/GENUINE_OPTIONS -> [WTBot]wyDay.TurboActivate.TurboActivate/A/B
+{
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TurboActivate/Native/GENUINE_OPTIONS::nLength -> A
+	wyDay.TurboActivate.TurboActivate/Native/GenuineFlags [WTBot]wyDay.TurboActivate.TurboActivate/Native/GenuineFlags wyDay.TurboActivate.TurboActivate/Native/GENUINE_OPTIONS::flags -> A
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TurboActivate/Native/GENUINE_OPTIONS::nDaysBetweenChecks -> a
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TurboActivate/Native/GENUINE_OPTIONS::nGraceDaysOnInetErr -> B
+}
+
+[WTBot]WTBot.ObjectSerializer -> [WTBot]A.b
+{
+	[WTBot]WTBot.ObjectSerializer::SerializeRawData[2]( !0, [mscorlib]System.String ) -> A
+	[WTBot]WTBot.ObjectSerializer::DeSerializeRawData[1]( [mscorlib]System.String ) -> A
+	[WTBot]WTBot.ObjectSerializer::SerializeAndCipher[2]( !0, [mscorlib]System.String ) -> a
+	[WTBot]WTBot.ObjectSerializer::DeserializeCiphered[1]( [mscorlib]System.String ) -> a
+	[WTBot]WTBot.ObjectSerializer::cipherString[1]( [mscorlib]System.String ) -> B
+	[WTBot]WTBot.ObjectSerializer::decipherString[1]( [mscorlib]System.String ) -> b
+
+	[WTBot]WTBot.ObjectSerializer::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]WTBot.PostStringGenerator -> [WTBot]A.C
+{
+	[WTBot]WTBot.PostStringGenerator::generateCheckoutPostString[3]( [WTBot]WTBot.ProfileInfo, [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[WTBot]WTBot.PostStringGenerator::generateAddCartPostString[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+}
+
+[WTBot]WTBot.WebTools -> [WTBot]A.D
+{
+	[WTBot]WTBot.WebTools::WebUriExists[1]( [mscorlib]System.String ) -> A
+	[WTBot]WTBot.WebTools::GetPageHTML[3]( [mscorlib]System.String, [System]System.Net.CookieContainer, [WTBot]WTBot.ProxyInfo ) -> A
+	[WTBot]WTBot.WebTools::setProxy[2]( [WTBot]WTBot.ProxyInfo, [System]System.Net.HttpWebRequest ) -> A
+}
+
+[WTBot]wyDay.TurboActivate.TurboActivate/Native -> [WTBot]wyDay.TurboActivate.TurboActivate/A
+{
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_GetHandle[1]( [mscorlib]System.String ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_Activate[2]( [mscorlib]System.UInt32, [WTBot]wyDay.TurboActivate.TurboActivate/Native/ACTIVATE_OPTIONS& ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_Activate[2]( [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_ActivationRequestToFile[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TurboActivate/Native/ACTIVATE_OPTIONS& ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_ActivationRequestToFile[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [mscorlib]System.IntPtr ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_ActivateFromFile[2]( [mscorlib]System.UInt32, [mscorlib]System.String ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_CheckAndSavePKey[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_Flags ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_Deactivate[2]( [mscorlib]System.UInt32, [mscorlib]System.Byte ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_DeactivationRequestToFile[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [mscorlib]System.Byte ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_GetExtraData[3]( [mscorlib]System.UInt32, [mscorlib]System.Text.StringBuilder, [mscorlib]System.Int32 ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_GetFeatureValue[4]( [mscorlib]System.UInt32, [mscorlib]System.String, [mscorlib]System.Text.StringBuilder, [mscorlib]System.Int32 ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_GetPKey[3]( [mscorlib]System.UInt32, [mscorlib]System.Text.StringBuilder, [mscorlib]System.Int32 ) -> a
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_IsActivated[1]( [mscorlib]System.UInt32 ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_IsDateValid[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_DateCheckFlags ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_IsGenuine[1]( [mscorlib]System.UInt32 ) -> a
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_IsGenuineEx[2]( [mscorlib]System.UInt32, [WTBot]wyDay.TurboActivate.TurboActivate/Native/GENUINE_OPTIONS& ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_GenuineDays[5]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32&, [mscorlib]System.Char& ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_IsProductKeyValid[1]( [mscorlib]System.UInt32 ) -> B
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_SetCustomProxy[1]( [mscorlib]System.String ) -> a
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_TrialDaysRemaining[3]( [mscorlib]System.UInt32, [WTBot]wyDay.TurboActivate.TA_Flags, [mscorlib]System.UInt32& ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_UseTrial[3]( [mscorlib]System.UInt32, [WTBot]wyDay.TurboActivate.TA_Flags, [mscorlib]System.String ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_UseTrialVerifiedRequest[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_UseTrialVerifiedFromFile[3]( [mscorlib]System.UInt32, [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_Flags ) -> a
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_ExtendTrial[3]( [mscorlib]System.UInt32, [WTBot]wyDay.TurboActivate.TA_Flags, [mscorlib]System.String ) -> a
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_PDetsFromPath[1]( [mscorlib]System.String ) -> B
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_PDetsFromByteArray[2]( [mscorlib]System.Byte[], [mscorlib]System.Int32 ) -> A
+	[WTBot]wyDay.TurboActivate.TurboActivate/Native::TA_SetCustomActDataPath[2]( [mscorlib]System.UInt32, [mscorlib]System.String ) -> a
+}
+
+Skipped Types:
+
+[WTBot]wyDay.TurboActivate.TA_Flags skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TA_Flags::value__ skipped:  special name
+	wyDay.TurboActivate.TA_Flags [WTBot]wyDay.TurboActivate.TA_Flags wyDay.TurboActivate.TA_Flags::TA_SYSTEM skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.TA_Flags [WTBot]wyDay.TurboActivate.TA_Flags wyDay.TurboActivate.TA_Flags::TA_USER skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.TA_Flags [WTBot]wyDay.TurboActivate.TA_Flags wyDay.TurboActivate.TA_Flags::TA_DISALLOW_VM skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.TA_Flags [WTBot]wyDay.TurboActivate.TA_Flags wyDay.TurboActivate.TA_Flags::TA_UNVERIFIED_TRIAL skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.TA_Flags [WTBot]wyDay.TurboActivate.TA_Flags wyDay.TurboActivate.TA_Flags::TA_VERIFIED_TRIAL skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]wyDay.TurboActivate.TA_DateCheckFlags skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TA_DateCheckFlags::value__ skipped:  special name
+	wyDay.TurboActivate.TA_DateCheckFlags [WTBot]wyDay.TurboActivate.TA_DateCheckFlags wyDay.TurboActivate.TA_DateCheckFlags::TA_HAS_NOT_EXPIRED skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]wyDay.TurboActivate.TurboActivate skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.TurboActivate::get_VersionGUID[0]( ) skipped:  skip by property
+	[WTBot]wyDay.TurboActivate.TurboActivate::.ctor[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  special name
+	[WTBot]wyDay.TurboActivate.TurboActivate::.ctor[2]( [mscorlib]System.String, [mscorlib]System.Byte[] ) skipped:  special name
+	[WTBot]wyDay.TurboActivate.TurboActivate::Activate[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::ActivationRequestToFile[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::ActivateFromFile[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::CheckAndSavePKey[2]( [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_Flags ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::Deactivate[1]( [mscorlib]System.Boolean ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::DeactivationRequestToFile[2]( [mscorlib]System.String, [mscorlib]System.Boolean ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::GetExtraData[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::GetFeatureValue[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::GetFeatureValue[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::GetPKey[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::IsActivated[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::IsDateValid[2]( [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_DateCheckFlags ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::IsGenuine[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::IsGenuine[4]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.Boolean, [mscorlib]System.Boolean ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::GenuineDays[3]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.Boolean& ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::IsProductKeyValid[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::SetCustomProxy[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::TrialDaysRemaining[1]( [WTBot]wyDay.TurboActivate.TA_Flags ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::UseTrial[2]( [WTBot]wyDay.TurboActivate.TA_Flags, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::UseTrialVerifiedRequest[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::UseTrialVerifiedFromFile[2]( [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_Flags ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::ExtendTrial[2]( [mscorlib]System.String, [WTBot]wyDay.TurboActivate.TA_Flags ) skipped:  KeepPublicApi option in configuration
+	[WTBot]wyDay.TurboActivate.TurboActivate::SetCustomActDataPath[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+
+	System.String [WTBot]System.String wyDay.TurboActivate.TurboActivate::versGUID -> A
+	System.UInt32 [WTBot]System.UInt32 wyDay.TurboActivate.TurboActivate::handle -> A
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_OK -> A
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_FAIL -> a
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_PKEY -> B
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_ACTIVATE -> b
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INET -> C
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INUSE -> c
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_REVOKED -> D
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_PDETS -> d
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_TRIAL -> E
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_COM -> e
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_TRIAL_EUSED -> F
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_TRIAL_EEXP -> f
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_EXPIRED -> G
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INSUFFICIENT_BUFFER -> g
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_PERMISSION -> H
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INVALID_FLAGS -> h
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_IN_VM -> I
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_EDATA_LONG -> i
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INVALID_ARGS -> J
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_KEY_FOR_TURBOFLOAT -> j
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INET_DELAYED -> K
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_FEATURES_CHANGED -> k
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_NO_MORE_DEACTIVATIONS -> L
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_ACCOUNT_CANCELED -> l
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_ALREADY_ACTIVATED -> M
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_INVALID_HANDLE -> m
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_ENABLE_NETWORK_ADAPTERS -> N
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_ALREADY_VERIFIED_TRIAL -> n
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_TRIAL_EXPIRED -> O
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_MUST_SPECIFY_TRIAL_TYPE -> o
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_MUST_USE_TRIAL -> P
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.TurboActivate::TA_E_NO_MORE_TRIALS_ALLOWED -> p
+
+
+	System.String [WTBot]System.String wyDay.TurboActivate.TurboActivate::VersionGUID skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]wyDay.TurboActivate.IsGenuineResult skipped:  KeepPublicApi option in configuration
+{
+
+	System.Int32 [WTBot]System.Int32 wyDay.TurboActivate.IsGenuineResult::value__ skipped:  special name
+	wyDay.TurboActivate.IsGenuineResult [WTBot]wyDay.TurboActivate.IsGenuineResult wyDay.TurboActivate.IsGenuineResult::Genuine skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.IsGenuineResult [WTBot]wyDay.TurboActivate.IsGenuineResult wyDay.TurboActivate.IsGenuineResult::GenuineFeaturesChanged skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.IsGenuineResult [WTBot]wyDay.TurboActivate.IsGenuineResult wyDay.TurboActivate.IsGenuineResult::NotGenuine skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.IsGenuineResult [WTBot]wyDay.TurboActivate.IsGenuineResult wyDay.TurboActivate.IsGenuineResult::NotGenuineInVM skipped:  KeepPublicApi option in configuration
+	wyDay.TurboActivate.IsGenuineResult [WTBot]wyDay.TurboActivate.IsGenuineResult wyDay.TurboActivate.IsGenuineResult::InternetError skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.ActivationWindow skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.ActivationWindow::b_verify_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> A
+	[WTBot]WTBot.ActivationWindow::System.Windows.Markup.IComponentConnector.Connect[2]( [mscorlib]System.Int32, [mscorlib]System.Object ) -> A
+
+	[WTBot]WTBot.ActivationWindow::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.ActivationWindow::InitializeComponent[0]( ) skipped:  external base class or interface
+
+	wyDay.TurboActivate.TurboActivate [WTBot]wyDay.TurboActivate.TurboActivate WTBot.ActivationWindow::ta -> A
+	System.Boolean [WTBot]System.Boolean WTBot.ActivationWindow::isGenuine -> A
+	System.UInt32 [WTBot]System.UInt32 WTBot.ActivationWindow::DaysBetweenChecks -> A
+	System.UInt32 [WTBot]System.UInt32 WTBot.ActivationWindow::GracePeriodLength -> a
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.ActivationWindow::serial_key -> A
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.ActivationWindow::b_verify -> A
+	System.Boolean [WTBot]System.Boolean WTBot.ActivationWindow::_contentLoaded -> a
+}
+
+[WTBot]WTBot.Bot skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.Bot::forwardMessageToLogMonitor[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[WTBot]WTBot.Bot::initCookiesByTaskName[1]( [mscorlib]System.String ) -> A
+	[WTBot]WTBot.Bot::taskExecute[1]( [WTBot]WTBot.TaskInfo ) -> A
+	[WTBot]WTBot.Bot::everyKeywordMatches[2]( [mscorlib]System.Collections.Generic.List`1<[mscorlib]System.String>, [mscorlib]System.String ) -> A
+	[WTBot]WTBot.Bot::addToCart[3]( [WTBot]WTBot.ShopItemInfo, [WTBot]WTBot.TaskInfo, [WTBot]WTBot.TaskItemInfo ) -> A
+	[WTBot]WTBot.Bot::checkout[2]( [WTBot]WTBot.ProfileInfo, [WTBot]WTBot.TaskInfo ) -> A
+	[WTBot]WTBot.Bot::<monitorCaptchas>b__16_0[0]( ) -> A
+
+	[WTBot]WTBot.Bot::get_infoManager[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Bot::set_infoManager[1]( [WTBot]WTBot.InfoManager ) skipped:  skip by property
+	[WTBot]WTBot.Bot::get_captchaMonitor[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Bot::set_captchaMonitor[1]( [WTBot]WTBot.CaptchaMonitor ) skipped:  skip by property
+	[WTBot]WTBot.Bot::get_settings[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Bot::set_settings[1]( [WTBot]WTBot.BotSettings ) skipped:  skip by property
+	[WTBot]WTBot.Bot::.ctor[1]( [WTBot]WTBot.InfoManager ) skipped:  special name
+	[WTBot]WTBot.Bot::monitorCaptchas[1]( [PresentationFramework]System.Windows.Controls.Label ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.Bot::abortTaskByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.Bot::startTaskWithName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.Bot::findMatchingItem[2]( [WTBot]WTBot.TaskInfo, [WTBot]WTBot.TaskItemInfo ) skipped:  KeepPublicApi option in configuration
+
+	WTBot.InfoManager [WTBot]WTBot.InfoManager WTBot.Bot::<infoManager>k__BackingField -> A
+	System.Collections.Generic.Dictionary`2<System.String,System.Net.CookieContainer> [WTBot]System.Collections.Generic.Dictionary`2<System.String,System.Net.CookieContainer> WTBot.Bot::cookies -> A
+	WTBot.CaptchaMonitor [WTBot]WTBot.CaptchaMonitor WTBot.Bot::<captchaMonitor>k__BackingField -> A
+	WTBot.BotSettings [WTBot]WTBot.BotSettings WTBot.Bot::<settings>k__BackingField -> A
+
+	WTBot.LogMonitor [WTBot]WTBot.LogMonitor WTBot.Bot::logMonitor skipped:  KeepPublicApi option in configuration
+	System.Threading.Thread [WTBot]System.Threading.Thread WTBot.Bot::captchaMonitorThread skipped:  KeepPublicApi option in configuration
+
+
+	WTBot.InfoManager [WTBot]WTBot.InfoManager WTBot.Bot::infoManager skipped:  KeepPublicApi option in configuration
+	WTBot.CaptchaMonitor [WTBot]WTBot.CaptchaMonitor WTBot.Bot::captchaMonitor skipped:  KeepPublicApi option in configuration
+	WTBot.BotSettings [WTBot]WTBot.BotSettings WTBot.Bot::settings skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.BotSettings skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.BotSettings::get_refreshDelayMs[0]( ) skipped:  skip by property
+	[WTBot]WTBot.BotSettings::set_refreshDelayMs[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[WTBot]WTBot.BotSettings::.ctor[0]( ) skipped:  special name
+
+	System.Int32 [WTBot]System.Int32 WTBot.BotSettings::<refreshDelayMs>k__BackingField -> A
+
+
+	System.Int32 [WTBot]System.Int32 WTBot.BotSettings::refreshDelayMs skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.CaptchaMonitor skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.CaptchaMonitor::<startMonitoring>b__3_0[0]( ) -> A
+	[WTBot]WTBot.CaptchaMonitor::<startMonitoring>b__3_1[0]( ) -> a
+	[WTBot]WTBot.CaptchaMonitor::<startMonitoring>b__3_2[0]( ) -> B
+
+	[WTBot]WTBot.CaptchaMonitor::.ctor[1]( [PresentationFramework]System.Windows.Controls.Label ) skipped:  special name
+	[WTBot]WTBot.CaptchaMonitor::startMonitoring[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.CaptchaMonitor::GetSpareReCaptcha[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.CaptchaMonitor::AddReCaptcha[1]( [WTBot]WTBot.ReCaptchaResponseInfo ) skipped:  KeepPublicApi option in configuration
+
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.CaptchaMonitor::output -> A
+	System.Collections.Concurrent.ConcurrentQueue`1<WTBot.ReCaptchaResponseInfo> [WTBot]System.Collections.Concurrent.ConcurrentQueue`1<WTBot.ReCaptchaResponseInfo> WTBot.CaptchaMonitor::queue -> A
+}
+
+[WTBot]WTBot.CountryConverter skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.CountryConverter::GetCountryCode[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.CountryConverter::.cctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.Dictionary`2<System.String,System.String> [WTBot]System.Collections.Generic.Dictionary`2<System.String,System.String> WTBot.CountryConverter::dict -> A
+}
+
+[WTBot]WTBot.InfoManager skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.InfoManager::<loadTasksList>b__26_0[0]( ) -> A
+	[WTBot]WTBot.InfoManager::<loadTasksList>b__26_1[0]( ) -> a
+	[WTBot]WTBot.InfoManager::<saveProfilesList>b__27_0[0]( ) -> B
+	[WTBot]WTBot.InfoManager::<loadProfilesList>b__28_0[0]( ) -> b
+	[WTBot]WTBot.InfoManager::<loadProxiesList>b__30_0[0]( ) -> C
+	[WTBot]WTBot.InfoManager::<loadProxiesList>b__30_1[0]( ) -> c
+
+	[WTBot]WTBot.InfoManager::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.InfoManager::GetProxiesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::provideLists[3]( [WTBot]WTBot.ItemNameIdentifiedList, [WTBot]WTBot.ItemNameIdentifiedList, [WTBot]WTBot.ItemNameIdentifiedList ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::provideLVS[3]( [PresentationFramework]System.Windows.Controls.ListView, [PresentationFramework]System.Windows.Controls.ListView, [PresentationFramework]System.Windows.Controls.ListView ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::GetTaskByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::GetProfileByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::GetProxyByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::RemoveTaskByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::RemoveProfileByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::RemoveProxyByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::updateTasksList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::updateProfilesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::updateProxiesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::addProfile[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::addTask[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::addProxy[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::saveTasksList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::loadTasksList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::saveProfilesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::loadProfilesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::saveProxiesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::loadProxiesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::GetProfilesList[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.InfoManager::anyProfileExists[0]( ) skipped:  KeepPublicApi option in configuration
+
+	System.String [WTBot]System.String WTBot.InfoManager::tasksFileName -> A
+	System.String [WTBot]System.String WTBot.InfoManager::profilesFileName -> a
+	System.String [WTBot]System.String WTBot.InfoManager::proxiesFileName -> B
+	WTBot.ItemNameIdentifiedList [WTBot]WTBot.ItemNameIdentifiedList WTBot.InfoManager::tasksList -> A
+	WTBot.ItemNameIdentifiedList [WTBot]WTBot.ItemNameIdentifiedList WTBot.InfoManager::profilesList -> a
+	WTBot.ItemNameIdentifiedList [WTBot]WTBot.ItemNameIdentifiedList WTBot.InfoManager::proxiesList -> B
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.InfoManager::lvTasks -> A
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.InfoManager::lvProfiles -> a
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.InfoManager::lvProxies -> B
+}
+
+[WTBot]WTBot.InterchangeHelper skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.InterchangeHelper::.ctor[2]( [WTBot]WTBot.ReCaptchaWindow, [WTBot]WTBot.Bot ) skipped:  special name
+	[WTBot]WTBot.InterchangeHelper::reCaptchaPassed[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+
+	WTBot.ReCaptchaWindow [WTBot]WTBot.ReCaptchaWindow WTBot.InterchangeHelper::mExternalWPF -> A
+	WTBot.Bot [WTBot]WTBot.Bot WTBot.InterchangeHelper::bot -> A
+}
+
+[WTBot]WTBot.LogMonitor skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.LogMonitor::.ctor[2]( [PresentationFramework]System.Windows.Controls.TextBlock, [PresentationFramework]System.Windows.Controls.ScrollViewer ) skipped:  special name
+	[WTBot]WTBot.LogMonitor::addLogMessage[2]( [mscorlib]System.String, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.LogMonitor::emptyLog[0]( ) skipped:  KeepPublicApi option in configuration
+
+	System.Windows.Controls.TextBlock [WTBot]System.Windows.Controls.TextBlock WTBot.LogMonitor::textBlock -> A
+	System.Windows.Controls.ScrollViewer [WTBot]System.Windows.Controls.ScrollViewer WTBot.LogMonitor::sv -> A
+}
+
+[WTBot]WTBot.NameIdentifiedInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.NameIdentifiedInfo::GetLvRepresentation[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.NameIdentifiedInfo::.ctor[0]( ) skipped:  special name
+
+
+	System.String [WTBot]System.String WTBot.NameIdentifiedInfo::name skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.ReCaptchaResponseInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.ReCaptchaResponseInfo::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.ReCaptchaResponseInfo::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+
+
+	System.Int32 [WTBot]System.Int32 WTBot.ReCaptchaResponseInfo::RECAPTCHA_VALIDITY_MS_PERIOD skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ReCaptchaResponseInfo::response skipped:  KeepPublicApi option in configuration
+	System.Diagnostics.Stopwatch [WTBot]System.Diagnostics.Stopwatch WTBot.ReCaptchaResponseInfo::timer skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.ReCaptchaWindow skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.ReCaptchaWindow::ReCaptchaBrowser_LoadCompleted[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.Navigation.NavigationEventArgs ) -> A
+	[WTBot]WTBot.ReCaptchaWindow::navigateToSupreme[0]( ) -> A
+	[WTBot]WTBot.ReCaptchaWindow::System.Windows.Markup.IComponentConnector.Connect[2]( [mscorlib]System.Int32, [mscorlib]System.Object ) -> A
+
+	[WTBot]WTBot.ReCaptchaWindow::InitializeComponent[0]( ) skipped:  external base class or interface
+	[WTBot]WTBot.ReCaptchaWindow::.ctor[1]( [WTBot]WTBot.Bot ) skipped:  special name
+	[WTBot]WTBot.ReCaptchaWindow::showReCaptcha[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.ReCaptchaWindow::HideScriptErrors[2]( [PresentationFramework]System.Windows.Controls.WebBrowser, [mscorlib]System.Boolean ) skipped:  KeepPublicApi option in configuration
+
+	System.String [WTBot]System.String WTBot.ReCaptchaWindow::captcha -> A
+	System.String [WTBot]System.String WTBot.ReCaptchaWindow::page -> a
+	WTBot.InterchangeHelper [WTBot]WTBot.InterchangeHelper WTBot.ReCaptchaWindow::helper -> A
+	WTBot.Bot [WTBot]WTBot.Bot WTBot.ReCaptchaWindow::bot -> A
+	System.Windows.Controls.WebBrowser [WTBot]System.Windows.Controls.WebBrowser WTBot.ReCaptchaWindow::reCaptchaBrowser -> A
+	System.Boolean [WTBot]System.Boolean WTBot.ReCaptchaWindow::_contentLoaded -> A
+}
+
+[WTBot]WTBot.ShopItemInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.ShopItemInfo::get_url[0]( ) skipped:  skip by property
+	[WTBot]WTBot.ShopItemInfo::set_url[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]WTBot.ShopItemInfo::get_name[0]( ) skipped:  skip by property
+	[WTBot]WTBot.ShopItemInfo::set_name[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]WTBot.ShopItemInfo::get_color[0]( ) skipped:  skip by property
+	[WTBot]WTBot.ShopItemInfo::set_color[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]WTBot.ShopItemInfo::.ctor[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) skipped:  special name
+
+	System.String [WTBot]System.String WTBot.ShopItemInfo::<url>k__BackingField -> A
+	System.String [WTBot]System.String WTBot.ShopItemInfo::<name>k__BackingField -> a
+	System.String [WTBot]System.String WTBot.ShopItemInfo::<color>k__BackingField -> B
+
+
+	System.String [WTBot]System.String WTBot.ShopItemInfo::url skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ShopItemInfo::name skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ShopItemInfo::color skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.SupremeParser skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.SupremeParser::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.SupremeParser::GetItemsFromCategory[3]( [mscorlib]System.String, [System]System.Net.CookieContainer, [WTBot]WTBot.ProxyInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.SupremeParser::GetItemSizeIdFromPage[2]( [mscorlib]System.String, [WTBot]WTBot.TaskItemInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.SupremeParser::GetItemStyleId[2]( [mscorlib]System.String, [WTBot]WTBot.TaskItemInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.SupremeParser::GetItemCartAddUrl[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+
+	System.Random [WTBot]System.Random WTBot.SupremeParser::generator -> A
+}
+
+[WTBot]WTBot.TaskInfoWindow skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.TaskInfoWindow::butTaskInfoSave_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> A
+	[WTBot]WTBot.TaskInfoWindow::calculateSize[1]( [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> A
+	[WTBot]WTBot.TaskInfoWindow::taskInfoGridSizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> A
+	[WTBot]WTBot.TaskInfoWindow::lvItems_SizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> a
+	[WTBot]WTBot.TaskInfoWindow::butAddItem_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> a
+	[WTBot]WTBot.TaskInfoWindow::butRemoveItem_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> B
+	[WTBot]WTBot.TaskInfoWindow::System.Windows.Markup.IComponentConnector.Connect[2]( [mscorlib]System.Int32, [mscorlib]System.Object ) -> A
+
+	[WTBot]WTBot.TaskInfoWindow::InitializeComponent[0]( ) skipped:  external base class or interface
+	[WTBot]WTBot.TaskInfoWindow::.ctor[3]( [WTBot]WTBot.Bot, [mscorlib]System.Boolean, [mscorlib]System.String ) skipped:  special name
+	[WTBot]WTBot.TaskInfoWindow::fillWithTaskInfo[1]( [WTBot]WTBot.TaskInfo ) skipped:  KeepPublicApi option in configuration
+
+	WTBot.Bot [WTBot]WTBot.Bot WTBot.TaskInfoWindow::bot -> A
+	System.Boolean [WTBot]System.Boolean WTBot.TaskInfoWindow::editMode -> A
+	System.String [WTBot]System.String WTBot.TaskInfoWindow::editedName -> A
+	System.Int32 [WTBot]System.Int32 WTBot.TaskInfoWindow::id -> A
+	System.Collections.Generic.List`1<WTBot.TaskItemInfo> [WTBot]System.Collections.Generic.List`1<WTBot.TaskItemInfo> WTBot.TaskInfoWindow::items -> A
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelKeywords -> A
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelColor -> a
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelCategory -> B
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelSize -> b
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelCheckoutDelay -> C
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelProfile -> c
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelTaskName -> D
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.TaskInfoWindow::tbKeywords -> A
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.TaskInfoWindow::tbColor -> a
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.TaskInfoWindow::cbCategory -> A
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.TaskInfoWindow::cbSize -> a
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.TaskInfoWindow::butAddItem -> A
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.TaskInfoWindow::butRemoveItem -> a
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.TaskInfoWindow::lvItems -> A
+	System.Windows.Controls.GridView [WTBot]System.Windows.Controls.GridView WTBot.TaskInfoWindow::gvItems -> A
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.TaskInfoWindow::colId -> A
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.TaskInfoWindow::colKeywords -> a
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.TaskInfoWindow::colSize -> B
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.TaskInfoWindow::colCategory -> b
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.TaskInfoWindow::colColor -> C
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.TaskInfoWindow::tbCheckoutDelay -> B
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.TaskInfoWindow::cbProfile -> B
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.TaskInfoWindow::labelProxy -> d
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.TaskInfoWindow::tbTaskName -> b
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.TaskInfoWindow::cbProxy -> b
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.TaskInfoWindow::butTaskInfoSave -> B
+	System.Boolean [WTBot]System.Boolean WTBot.TaskInfoWindow::_contentLoaded -> a
+}
+
+[WTBot]WTBot.TaskItemInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.TaskItemInfo::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.TaskItemInfo::GetKeywords[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.TaskItemInfo::.cctor[0]( ) skipped:  special name
+
+	System.Int32 [WTBot]System.Int32 WTBot.TaskItemInfo::ID -> A
+
+	System.Int32 [WTBot]System.Int32 WTBot.TaskItemInfo::id skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskItemInfo::size skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskItemInfo::category skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskItemInfo::color skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.List`1<System.String> [WTBot]System.Collections.Generic.List`1<System.String> WTBot.TaskItemInfo::keywords skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.MainWindow skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.MainWindow::fillDataView[0]( ) -> A
+	[WTBot]WTBot.MainWindow::lvTasks_SizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> A
+	[WTBot]WTBot.MainWindow::fillListView[0]( ) -> a
+	[WTBot]WTBot.MainWindow::butAddTask_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> A
+	[WTBot]WTBot.MainWindow::butEditTask_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> a
+	[WTBot]WTBot.MainWindow::butRemoveTask_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> B
+	[WTBot]WTBot.MainWindow::butStartTask_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> b
+	[WTBot]WTBot.MainWindow::butSave_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> C
+	[WTBot]WTBot.MainWindow::butClear_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> c
+	[WTBot]WTBot.MainWindow::lvData_SizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> a
+	[WTBot]WTBot.MainWindow::calculateSize[1]( [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> A
+	[WTBot]WTBot.MainWindow::settingsGridSizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> B
+	[WTBot]WTBot.MainWindow::onTabControlSizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> b
+	[WTBot]WTBot.MainWindow::tasksGridSizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> C
+	[WTBot]WTBot.MainWindow::butEdit_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> D
+	[WTBot]WTBot.MainWindow::butRemove_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> d
+	[WTBot]WTBot.MainWindow::butSolveCaptchas_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> E
+	[WTBot]WTBot.MainWindow::Window_Closing[2]( [mscorlib]System.Object, [System]System.ComponentModel.CancelEventArgs ) -> A
+	[WTBot]WTBot.MainWindow::butProxyAdd_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> e
+	[WTBot]WTBot.MainWindow::butProxyClear_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> F
+	[WTBot]WTBot.MainWindow::butProxyEdit_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> f
+	[WTBot]WTBot.MainWindow::butProxyRemove_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> G
+	[WTBot]WTBot.MainWindow::lvProxy_SizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> c
+	[WTBot]WTBot.MainWindow::proxyTabGrid_SizeChanged[2]( [mscorlib]System.Object, [PresentationFramework]System.Windows.SizeChangedEventArgs ) -> D
+	[WTBot]WTBot.MainWindow::butSettingsSave_Click[2]( [mscorlib]System.Object, [PresentationCore]System.Windows.RoutedEventArgs ) -> g
+	[WTBot]WTBot.MainWindow::System.Windows.Markup.IComponentConnector.Connect[2]( [mscorlib]System.Int32, [mscorlib]System.Object ) -> A
+	[WTBot]WTBot.MainWindow::System.Windows.Markup.IStyleConnector.Connect[2]( [mscorlib]System.Int32, [mscorlib]System.Object ) -> a
+
+	[WTBot]WTBot.MainWindow::InitializeComponent[0]( ) skipped:  external base class or interface
+	[WTBot]WTBot.MainWindow::.ctor[0]( ) skipped:  special name
+
+	WTBot.LogMonitor [WTBot]WTBot.LogMonitor WTBot.MainWindow::logMonitor -> A
+	WTBot.InfoManager [WTBot]WTBot.InfoManager WTBot.MainWindow::infoManager -> A
+	WTBot.Bot [WTBot]WTBot.Bot WTBot.MainWindow::bot -> A
+	System.Windows.Controls.TabControl [WTBot]System.Windows.Controls.TabControl WTBot.MainWindow::tabControl -> A
+	System.Windows.Controls.TabItem [WTBot]System.Windows.Controls.TabItem WTBot.MainWindow::tabItemTasks -> A
+	System.Windows.Controls.TextBlock [WTBot]System.Windows.Controls.TextBlock WTBot.MainWindow::tabItemTasksHeader -> A
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lCapchasSolved -> A
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butAddTask -> A
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butEditTask -> a
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butRemoveTask -> B
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.MainWindow::lvTasks -> A
+	System.Windows.Controls.GridView [WTBot]System.Windows.Controls.GridView WTBot.MainWindow::gvTasks -> A
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colTaskName -> A
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colProfile -> a
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colCheckoutDelay -> B
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colRun -> b
+	System.Windows.Controls.ScrollViewer [WTBot]System.Windows.Controls.ScrollViewer WTBot.MainWindow::tbLogScroll -> A
+	System.Windows.Controls.TextBlock [WTBot]System.Windows.Controls.TextBlock WTBot.MainWindow::tbLog -> a
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butSolveCaptchas -> b
+	System.Windows.Controls.TabItem [WTBot]System.Windows.Controls.TabItem WTBot.MainWindow::tabItemSettings -> a
+	System.Windows.Controls.TextBlock [WTBot]System.Windows.Controls.TextBlock WTBot.MainWindow::tabItemSettingsHeader -> B
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelPersonalData -> a
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelFullName -> B
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelEmail -> b
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelTel -> C
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelAddress1 -> c
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelAddress2 -> D
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCity -> d
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelPostcode -> E
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCountry -> e
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbFullName -> A
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbEmail -> a
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbTel -> B
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbAddress1 -> b
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbAddress2 -> C
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbCity -> c
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbPostcode -> D
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCardDetails -> F
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCardType -> f
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCardNumber -> G
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCardExpire -> g
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCardCvv -> H
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::labelCardRef -> h
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.MainWindow::cbCountry -> A
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.MainWindow::cbCardType -> a
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbCardno -> d
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.MainWindow::cbCardMonth -> B
+	System.Windows.Controls.ComboBox [WTBot]System.Windows.Controls.ComboBox WTBot.MainWindow::cbCardYear -> b
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbCVV -> E
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbProfileName -> e
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butSave -> C
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butClear -> c
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butEdit -> D
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butRemove -> d
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.MainWindow::lvData -> a
+	System.Windows.Controls.GridView [WTBot]System.Windows.Controls.GridView WTBot.MainWindow::gvData -> a
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::dataColProfileName -> C
+	System.Windows.Controls.TabItem [WTBot]System.Windows.Controls.TabItem WTBot.MainWindow::tabItemProxy -> B
+	System.Windows.Controls.TextBlock [WTBot]System.Windows.Controls.TextBlock WTBot.MainWindow::tabItemProxyHeader -> b
+	System.Windows.Controls.Grid [WTBot]System.Windows.Controls.Grid WTBot.MainWindow::proxyTabGrid -> A
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lProxy -> I
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lSettings -> i
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lProxyName -> J
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbProxyName -> F
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lProxyAddress -> j
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbProxyIpAddress -> f
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lProxyUsername -> K
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbProxyUsername -> G
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lProxyPassword -> k
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbProxyPassword -> g
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butProxyAdd -> E
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butProxyClear -> e
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butProxyEdit -> F
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butProxyRemove -> f
+	System.Windows.Controls.ListView [WTBot]System.Windows.Controls.ListView WTBot.MainWindow::lvProxy -> B
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colProxyName -> c
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colIP -> D
+	System.Windows.Controls.GridViewColumn [WTBot]System.Windows.Controls.GridViewColumn WTBot.MainWindow::colUsername -> d
+	System.Windows.Controls.Label [WTBot]System.Windows.Controls.Label WTBot.MainWindow::lRefreshFreq -> L
+	System.Windows.Controls.TextBox [WTBot]System.Windows.Controls.TextBox WTBot.MainWindow::tbRefresMS -> H
+	System.Windows.Controls.Button [WTBot]System.Windows.Controls.Button WTBot.MainWindow::butSettingsSave -> G
+	System.Boolean [WTBot]System.Boolean WTBot.MainWindow::_contentLoaded -> A
+}
+
+[WTBot]WTBot.Properties.Resources skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.Properties.Resources::get_ResourceManager[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_Culture[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_AppName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_butSolveCaptcha[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_butTaskAdd[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_butTaskEdit[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_butTaskRemove[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_colId[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_colKeywords[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_colProgress[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_colRun[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataAddress1[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataAddress2[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCard[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCardExpire[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCardNumber[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCardType[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCity[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataClear[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCountry[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataCVV[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataEmail[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataFullName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataPersonal[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataPostcode[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataRef[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataSave[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_dataTel[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorAddProfileFirst[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorCantSaveWithoutItems[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorCardOrSoldOut[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorEnter[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorNoCaptchasAvailable[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorNoSizeAvailable[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorNotFoundRefIn[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorOccured[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorProductKeyNotValid[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorProfileDoesntExist[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorSelectItemFirst[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_errorSelectTaskFirst[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_labelRefreshFreq[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_labelSettings[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logAdding[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logCheckedOutSuc[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logFoundMatchingItem[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logFoundTotalOf[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logItemNotAvailable[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logItemsIn[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logLoadingData[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logLoadingDataFinished[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logStartedTaskWithId[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logStoppingThreadWithIt[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logSuccessfullyAdded[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logTaskRemoved[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logToCart[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_logTryingToFindItem[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_lProxyAddress[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_lProxyName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_lProxyPassword[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_lProxyUsername[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_tabProfiles[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_tabProxy[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_tabProxyAndSettings[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_tabSettings[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_tabTasks[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskInfoCategory[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskInfoCheckoutDelay[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskInfoColor[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskInfoProfile[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskInfoSize[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskInfoWindowName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_taskName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_toolTipCheckoutDelay[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_toolTipColor[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::get_toolTipKeywords[0]( ) skipped:  skip by property
+	[WTBot]WTBot.Properties.Resources::.ctor[0]( ) skipped:  special name
+
+	System.Resources.ResourceManager [WTBot]System.Resources.ResourceManager WTBot.Properties.Resources::resourceMan -> A
+	System.Globalization.CultureInfo [WTBot]System.Globalization.CultureInfo WTBot.Properties.Resources::resourceCulture -> A
+
+
+	System.Resources.ResourceManager [WTBot]System.Resources.ResourceManager WTBot.Properties.Resources::ResourceManager skipped:  KeepPublicApi option in configuration
+	System.Globalization.CultureInfo [WTBot]System.Globalization.CultureInfo WTBot.Properties.Resources::Culture skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::AppName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::butSolveCaptcha skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::butTaskAdd skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::butTaskEdit skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::butTaskRemove skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::colId skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::colKeywords skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::colProgress skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::colRun skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataAddress1 skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataAddress2 skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCard skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCardExpire skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCardNumber skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCardType skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCity skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataClear skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCountry skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataCVV skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataEmail skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataFullName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataPersonal skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataPostcode skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataRef skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataSave skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::dataTel skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorAddProfileFirst skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorCantSaveWithoutItems skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorCardOrSoldOut skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorEnter skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorNoCaptchasAvailable skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorNoSizeAvailable skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorNotFoundRefIn skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorOccured skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorProductKeyNotValid skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorProfileDoesntExist skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorSelectItemFirst skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::errorSelectTaskFirst skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::labelRefreshFreq skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::labelSettings skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logAdding skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logCheckedOutSuc skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logFoundMatchingItem skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logFoundTotalOf skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logItemNotAvailable skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logItemsIn skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logLoadingData skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logLoadingDataFinished skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logStartedTaskWithId skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logStoppingThreadWithIt skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logSuccessfullyAdded skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logTaskRemoved skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logToCart skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::logTryingToFindItem skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::lProxyAddress skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::lProxyName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::lProxyPassword skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::lProxyUsername skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::tabProfiles skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::tabProxy skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::tabProxyAndSettings skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::tabSettings skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::tabTasks skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskInfoCategory skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskInfoCheckoutDelay skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskInfoColor skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskInfoProfile skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskInfoSize skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskInfoWindowName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::taskName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::toolTipCheckoutDelay skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::toolTipColor skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.Properties.Resources::toolTipKeywords skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.ProfileInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.ProfileInfo::GetLvRepresentation[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.ProfileInfo::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.ProfileInfo::ToString[0]( ) skipped:  external base class or interface
+
+
+	System.Int32 [WTBot]System.Int32 WTBot.ProfileInfo::id skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::UTF8 skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::en_commit skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::FullName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::Email skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::TelNr skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::Address1 skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::Address2 skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::City skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::Postcode skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::Country skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::CardType skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::CardNr skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::ExpMonth skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::ExpYear skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProfileInfo::CVV skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.ProxyInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.ProxyInfo::GetLvRepresentation[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.ProxyInfo::ToString[0]( ) skipped:  external base class or interface
+	[WTBot]WTBot.ProxyInfo::.ctor[0]( ) skipped:  special name
+
+
+	System.String [WTBot]System.String WTBot.ProxyInfo::ip skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProxyInfo::username skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.ProxyInfo::password skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.TaskInfo skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.TaskInfo::GetLvRepresentation[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.TaskInfo::.ctor[0]( ) skipped:  special name
+
+
+	System.Boolean [WTBot]System.Boolean WTBot.TaskInfo::running skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::proxyName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::color skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::checkoutDelay skipped:  KeepPublicApi option in configuration
+	System.Collections.Generic.List`1<WTBot.TaskItemInfo> [WTBot]System.Collections.Generic.List`1<WTBot.TaskItemInfo> WTBot.TaskInfo::items skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::status skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::profileName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::category skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.TaskInfo::size skipped:  KeepPublicApi option in configuration
+	System.Threading.Thread [WTBot]System.Threading.Thread WTBot.TaskInfo::taskThread skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.LvTaskItem skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.LvTaskItem::get_TaskName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.LvTaskItem::set_TaskName[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]WTBot.LvTaskItem::get_ProfileName[0]( ) skipped:  skip by property
+	[WTBot]WTBot.LvTaskItem::set_ProfileName[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]WTBot.LvTaskItem::get_CheckoutDelay[0]( ) skipped:  skip by property
+	[WTBot]WTBot.LvTaskItem::set_CheckoutDelay[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]WTBot.LvTaskItem::.ctor[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  special name
+
+	System.String [WTBot]System.String WTBot.LvTaskItem::<TaskName>k__BackingField -> A
+	System.String [WTBot]System.String WTBot.LvTaskItem::<ProfileName>k__BackingField -> a
+	System.String [WTBot]System.String WTBot.LvTaskItem::<CheckoutDelay>k__BackingField -> B
+
+
+	System.String [WTBot]System.String WTBot.LvTaskItem::TaskName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.LvTaskItem::ProfileName skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String WTBot.LvTaskItem::CheckoutDelay skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]mshtml.DispHTMLDocument skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]mshtml.DispHTMLDocument::get_body[0]( ) skipped:  skip by property
+	[WTBot]mshtml.DispHTMLDocument::_VtblGap1_2[0]( ) skipped:  runtime method
+	[WTBot]mshtml.DispHTMLDocument::_VtblGap2_62[0]( ) skipped:  runtime method
+	[WTBot]mshtml.DispHTMLDocument::createElement[1]( [mscorlib]System.String ) skipped:  runtime method
+	[WTBot]mshtml.DispHTMLDocument::_VtblGap3_82[0]( ) skipped:  runtime method
+	[WTBot]mshtml.DispHTMLDocument::getElementsByTagName[1]( [mscorlib]System.String ) skipped:  runtime method
+
+
+	mshtml.IHTMLElement [WTBot]mshtml.IHTMLElement mshtml.DispHTMLDocument::body skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]mshtml.DispHTMLHeadElement skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]mshtml.DispHTMLHeadElement::get_innerHTML[0]( ) skipped:  skip by property
+	[WTBot]mshtml.DispHTMLHeadElement::set_innerHTML[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]mshtml.DispHTMLHeadElement::_VtblGap1_50[0]( ) skipped:  runtime method
+	[WTBot]mshtml.DispHTMLHeadElement::_VtblGap2_201[0]( ) skipped:  runtime method
+	[WTBot]mshtml.DispHTMLHeadElement::appendChild[1]( [WTBot]mshtml.IHTMLDOMNode ) skipped:  runtime method
+
+
+	System.String [WTBot]System.String mshtml.DispHTMLHeadElement::innerHTML skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]mshtml.IHTMLElement skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]mshtml.IHTMLElement::get_innerHTML[0]( ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLElement::set_innerHTML[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLElement::_VtblGap1_50[0]( ) skipped:  runtime method
+
+
+	System.String [WTBot]System.String mshtml.IHTMLElement::innerHTML skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]mshtml.IHTMLScriptElement skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]mshtml.IHTMLScriptElement::get_src[0]( ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLScriptElement::set_src[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLScriptElement::get_text[0]( ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLScriptElement::set_text[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLScriptElement::get_type[0]( ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLScriptElement::set_type[1]( [mscorlib]System.String ) skipped:  skip by property
+	[WTBot]mshtml.IHTMLScriptElement::_VtblGap1_4[0]( ) skipped:  runtime method
+	[WTBot]mshtml.IHTMLScriptElement::_VtblGap2_5[0]( ) skipped:  runtime method
+
+
+	System.String [WTBot]System.String mshtml.IHTMLScriptElement::src skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String mshtml.IHTMLScriptElement::text skipped:  KeepPublicApi option in configuration
+	System.String [WTBot]System.String mshtml.IHTMLScriptElement::type skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]wyDay.TurboActivate.TurboActivateException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.TurboActivateException::.ctor[1]( [mscorlib]System.String ) skipped:  special name
+}
+
+[WTBot]WTBot.ItemNameIdentifiedList skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.ItemNameIdentifiedList::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.ItemNameIdentifiedList::GetItemByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.ItemNameIdentifiedList::RemoveItemByName[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.ItemNameIdentifiedList::AddItem[1]( [WTBot]WTBot.NameIdentifiedInfo ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.ItemNameIdentifiedList::updateListView[1]( [PresentationFramework]System.Windows.Controls.ListView ) skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.LvItem skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.LvItem::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]WTBot.PostReqMaker skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]WTBot.PostReqMaker::.ctor[0]( ) skipped:  special name
+	[WTBot]WTBot.PostReqMaker::PostRequest[3]( [mscorlib]System.String, [mscorlib]System.String, [System]System.Net.CookieContainer ) skipped:  KeepPublicApi option in configuration
+}
+
+[WTBot]WTBot.App skipped:  KeepPublicApi option in configuration
+{
+	[WTBot]WTBot.App::Application_DispatcherUnhandledException[2]( [mscorlib]System.Object, [WindowsBase]System.Windows.Threading.DispatcherUnhandledExceptionEventArgs ) -> A
+
+	[WTBot]WTBot.App::InitializeComponent[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.App::Main[0]( ) skipped:  KeepPublicApi option in configuration
+	[WTBot]WTBot.App::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]mshtml.IHTMLElementCollection skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]mshtml.IHTMLElementCollection::_VtblGap1_3[0]( ) skipped:  runtime method
+	[WTBot]mshtml.IHTMLElementCollection::GetEnumerator[0]( ) skipped:  external base class or interface
+	[WTBot]mshtml.IHTMLElementCollection::item[2]( [mscorlib]System.Object, [mscorlib]System.Object ) skipped:  runtime method
+}
+
+[WTBot]wyDay.TurboActivate.COMException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.COMException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.AccountCanceledException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.AccountCanceledException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.PkeyRevokedException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.PkeyRevokedException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.PkeyMaxUsedException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.PkeyMaxUsedException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.InternetException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.InternetException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.InvalidProductKeyException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.InvalidProductKeyException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.NotActivatedException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.NotActivatedException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.ProductDetailsException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.ProductDetailsException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.InvalidHandleException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.InvalidHandleException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.TrialExtUsedException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.TrialExtUsedException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.TrialExtExpiredException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.TrialExtExpiredException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.DateTimeException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.DateTimeException::.ctor[1]( [mscorlib]System.Boolean ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.PermissionException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.PermissionException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.InvalidFlagsException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.InvalidFlagsException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.VirtualMachineException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.VirtualMachineException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.ExtraDataTooLongException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.ExtraDataTooLongException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.InvalidArgsException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.InvalidArgsException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.TurboFloatKeyException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.TurboFloatKeyException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.NoMoreDeactivationsException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.NoMoreDeactivationsException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.EnableNetworkAdaptersException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.EnableNetworkAdaptersException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.AlreadyActivatedException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.AlreadyActivatedException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.AlreadyVerifiedTrialException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.AlreadyVerifiedTrialException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.TrialExpiredException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.TrialExpiredException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.NoMoreTrialsAllowedException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.NoMoreTrialsAllowedException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.MustSpecifyTrialTypeException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.MustSpecifyTrialTypeException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]wyDay.TurboActivate.MustUseTrialException skipped:  KeepPublicApi option in configuration
+{
+
+	[WTBot]wyDay.TurboActivate.MustUseTrialException::.ctor[0]( ) skipped:  special name
+}
+
+[WTBot]mshtml.HTMLDocumentEvents skipped:  KeepPublicApi option in configuration
+{
+}
+
+[WTBot]mshtml.HTMLDocumentEvents_Event skipped:  KeepPublicApi option in configuration
+{
+}
+
+[WTBot]mshtml.HTMLElementEvents skipped:  KeepPublicApi option in configuration
+{
+}
+
+[WTBot]mshtml.HTMLElementEvents_Event skipped:  KeepPublicApi option in configuration
+{
+}
+
+[WTBot]mshtml.IHTMLDOMNode skipped:  KeepPublicApi option in configuration
+{
+}
+
+[WTBot]mshtml.HTMLDocument skipped:  KeepPublicApi option in configuration
+{
+}
+
+[WTBot]mshtml.HTMLHeadElement skipped:  KeepPublicApi option in configuration
+{
+}
+
+Renamed Resources:
+
+ReVerifyNow.resources -> A.A.resources
+
+Skipped Resources:
+
+WTBot.Properties.Resources.resources (KeepPublicApi option in configuration)
+WTBot.g.resources (no clear new name)
